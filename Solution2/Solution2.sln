@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9DBD3588-FB07-4F4D-A2F0-57763E5C29C1}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		Default.html = Default.html
+		Default.js = Default.js
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {62C9B340-EEB5-4E72-95AC-C63634033F9B}
+	EndGlobalSection
+EndGlobal

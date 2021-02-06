@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <script src="/js/default.js"></script>
+</head>
+<body data-design-activate="defaultPage.activated">
+    <h1>Device Enumeration Sample</h1>
+
+    <h2 >Input</h2>
+
+    <div>            
+
+        <div id="Input">
+           <p>This scenario demonstrates using the device enumeration API
+              to look for specific device interfaces. A device interface
+              is the programmatic entry point for a device.</p>
+           <p>Select a device interface class</p>
+                <select id="SelectInterfaceClass" size="7" >
+                    <option value="audioCapture">Audio Capture</option>
+                    <option value="audioRender">Audio Playback</option>
+                    <option value="videoCapture">Webcams</option>
+                    <option value="portableStorageDevice">Portable Storage</option>
+                    <option value="mtpService">MTP Device Service</option>
+                    <option value="sms">SMS Device</option>
+                    <option value="proximity">Proxmity Device</option>
+                </select>
+                <br />
+                <p>Clicking the enumerate button will start a search for 
+                 device interfaces that belong to the specified device interface class. 
+                 The device interfaces will be listed below.</p>
+          <input onclick="onEnumerateDeviceInterfaces()" type="button" value="Enumerate" />
+                <br /><br />
+            </div>
+    </div>
+
+
+    <h2> Output</h2>
+
+            <div id="statusMessage"></div>
+
+            <!-- Device Enumeration results are displayed in this element -->
+            <div  id="Output"></div>
+</body>
+</html>
